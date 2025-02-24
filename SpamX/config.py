@@ -8,22 +8,22 @@ if os.path.exists(".env"):
 
 API_ID = int(env("API_ID", None))
 if API_ID is None:
-    LOGS.error("Please set your API_ID!")
+    LOGS.error("26689028")
     quit(1)
 
 API_HASH = str(env("API_HASH", None))
 if API_HASH is None:
-    LOGS.error("Please set your API_HASH!")
+    LOGS.error("34d0c2bd1992f199a8b8f9d5e01d5feb")
     quit(1)
 
 ASSISTANT_TOKEN = str(env("ASSISTANT_TOKEN", None))
 if ASSISTANT_TOKEN is None:
-    LOGS.error("Please set your ASSISTANT_TOKEN!")
+    LOGS.error("7751492434:AAGouUbYBdmpdCo5KNL49PkPmgoacNyXmCU")
     quit(1)
 
 OWNER_ID = int(env("OWNER_ID", None))
 if OWNER_ID is None:
-    LOGS.error("Please set your OWNER_ID!")
+    LOGS.error("7438166703")
     quit(1)
 
 DATABASE_URL = str(env("DATABASE_URL", None))
